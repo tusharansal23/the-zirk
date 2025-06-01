@@ -533,9 +533,6 @@ button[type="submit"]:hover {
 
 .map-container {
   position: relative;
-  overflow: hidden;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
 }
 
 .map-container img {
