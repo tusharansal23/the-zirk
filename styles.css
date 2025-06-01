@@ -621,7 +621,9 @@ li {
     padding-top: 75%; /* Change ratio: 4:3 = 75%, 1:1 = 100%, etc. */
   }
 }
-
+.color-grey {
+  color: #555 !important;
+}
 /* Optional fade animation */
 @keyframes fade {
   from { opacity: 0.3; }
@@ -889,6 +891,9 @@ header h2 {
   }
   .logo img {
     height: 40px; /* Smaller logo */
+  }
+  .right-section {
+    text-align: end;
   }
   .right-section h2 {
     margin: 0;
