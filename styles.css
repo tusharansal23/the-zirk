@@ -113,7 +113,9 @@
       background-position: 0% 50%;
     }
   }
-  
+.text-align-center {
+  text-align: center;
+}  
   
   .color-white {
     color: #fff;
