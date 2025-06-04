@@ -120,6 +120,9 @@
   .color-white {
     color: #fff;
   }
+  .color-black {
+    color: #000 !important;
+  }
   
   .hero::after {
     content: '';
@@ -138,6 +141,12 @@
     font-size: 3rem;
     margin-bottom: 20px;
   }
+  .mb-20 {
+    margin-bottom: 10px;
+  }
+  .thick-red-border {
+    border: 10px solid red;
+  }
   
   .hero-content p {
     font-size: 1.2rem;
@@ -148,7 +157,7 @@
   .section {
     padding: 80px 40px;
     text-align: center;
-    background: #273746;
+    background: #f9f3ef;
   }
   .bg-brown {
     background: #dcc47b;
@@ -482,6 +491,39 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #0056b3;
+}
+/* .rera-heading {
+  color: black;
+  text-align: center;
+} */
+
+.rera-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.animated-text {
+  font-size: 24px;
+  font-weight: bold;
+  background: linear-gradient(270deg, red, orange, yellow, red);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: colorShift 5s linear infinite;
+  text-align: center;
+}
+
+@keyframes colorShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .contact-container {
   display: flex;

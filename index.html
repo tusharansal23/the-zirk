@@ -27,6 +27,11 @@
     </div>
     
   </header>
+  <section class="rera-section">
+    <div>
+      <h2 class="rera-heading animated-text">Rera Number - PBRERA-SAS79-PR0817</h2>
+    </div>
+  </section>
   
 
   <!-- Hero Section -->
@@ -40,7 +45,7 @@
   <!-- About Section -->
   <section id="about" class="section">
     <h2 class="glow-heading">About The Zirk</h2>
-    <p>
+    <p class="color-black">
       The Zirk is a sprawling 3-acre residential development showcasing luxury and style. All of our 3 & 3+1 BHK luxury smart apartments are meticulously crafted to offer a living experience that is both lavish and functional.
     </p>
   </section>
@@ -51,7 +56,7 @@
         
         <!-- Left Content -->
         <div class="col-lg-6 mb-4 mb-lg-0">
-          <h2 class="fw-bold mb-3">Your Real Estate Journey, Visualized</h2>
+          <h2 class="fw-bold mb-3 glow-heading">Your Real Estate Journey, Visualized</h2>
           <p class="fw-semibold text-dark">Unlock the Door to Your Dream Home with The Zirk.</p>
           <p>
             <strong>The Zirk</strong> stands as a premier name in real estate across Zirakpur, transforming visionary living into a luxurious reality. 
@@ -86,7 +91,7 @@
   
   <section id="site-location" class="location-section container">
     <div class="location-container">
-      <h2>SITE PLAN</h2>
+      <h2 class="glow-heading">SITE PLAN</h2>
       <div class="location-map">
         <img src="./images/site-plan.jpg" alt="Site Plan">
       </div>
@@ -98,8 +103,33 @@
       <div class="row align-items-start">
         <!-- Left Side Content -->
         <div class="col-md-6 mb-4 mb-md-0">
-          <h1 class="display-6 fw-bold">The Zirk - 3 BHK Sizes 1750 sqft, 1800 sqft, 1900 sqft, 1990 sqft &  3 BHK with Servant Room, Size 2290 sqft</h1>
-          <p class="lead text-primary">Floor Plans</p>
+          <!-- Centered heading -->
+          <h2 class="fw-bold glow-heading text-center">SIZES</h2>
+
+          <!-- Left-aligned content -->
+          <div class="ps-3">
+            <ul class="list-unstyled">
+              <li>
+                <h4 class="fw-semibold">3 BHK</h4>
+                <ul>
+                  <li>1750 sqft</li>
+                  <li>1800 sqft</li>
+                  <li>1900 sqft</li>
+                  <li>1990 sqft</li>
+                </ul>
+              </li>
+              <li class="mt-3">
+                <h4 class="fw-semibold">3 BHK + Servant</h4>
+                <ul>
+                  <li>2290 sqft</li>
+                </ul>
+              </li>
+            </ul>
+
+            <p class="fw-bold text-primary mt-3">Floor Plans</p>
+          </div>
+
+
           <p>
             <strong>The Zirk</strong> by <strong>Urban Nest Projects</strong> sets a new benchmark in luxury living, offering a lifestyle that goes beyond expectations. Strategically located in the heart of the city, this exclusive development features elegantly designed 3 & 3+1 BHK apartments paired with world-class amenities.
           </p>
@@ -113,149 +143,139 @@
         </div>
   
         <!-- Right Side Carousel -->
-        <div class="col-md-6">
-          <div id="floorPlanCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-  
-              <!-- Slide 1 -->
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-12 col-md-6">
-                    <div class="card border-0 shadow-sm">
-                      <img src="./images/car-1.jpg" class="card-img-top floor-img" alt="Tower C">
-                      <div class="card-body text-align-center">
-                        <h5 class="card-title">Tower A</h5>
-                        <p class="card-text">Type - 3 BHK + Servant</p>
-                        <p class="card-text">Super Area = 2290 sq.ft</p>
+        <!-- Right Side Floor Plans -->
+          <div class="col-md-6">
+            
+            <!-- Carousel for Desktop Only -->
+            <div id="floorPlanCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card mb-20 thick-red-border shadow-sm">
+                        <img src="./images/car-4.jpg" class="card-img-top floor-img" alt="Tower D">
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Tower B</h5>
+                          <p class="card-text">Type - 3 BHK</p>
+                          <p class="card-text">Super Area = 1750 sq.ft</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <div class="card border-0 shadow-sm">
-                      <img src="./images/car-2.jpg" class="card-img-top floor-img" alt="Tower A">
-                      <div class="card-body text-align-center">
-                        <h5 class="card-title">Tower A</h5>
-                        <p class="card-text">Type - 3 BHK + Servant</p>
-                        <p class="card-text">Single Flat Area</p>
-                        <p class="card-text">Super Area = 2290 sq.ft</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-  
-              <!-- Slide 2 -->
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-12 col-md-6">
-                    <div class="card border-0 shadow-sm">
-                      <img src="./images/car-3.jpg" class="card-img-top floor-img" alt="Tower B">
-                      <div class="card-body text-align-center">
-                        <h5 class="card-title">Tower B</h5>
-                        
-                        <p class="card-text">Type - 3 BHK</p>
-                        <p class="card-text">Super Area = 1800 sq.ft</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <div class="card border-0 shadow-sm">
-                      <img src="./images/car-4.jpg" class="card-img-top floor-img" alt="Tower D">
-                      <div class="card-body text-align-center">
-                        <h5 class="card-title">Tower B</h5>
-                        <p class="card-text">Type - 3 BHK</p>
-                        <p class="card-text">Super Area = 1750 sq.ft</p>
+                    <div class="col-md-6">
+                      <div class="card border border-danger shadow-sm">
+                        <img src="./images/car-3.jpg" class="card-img-top floor-img" alt="Tower B">
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Tower B</h5>
+                          <p class="card-text">Type - 3 BHK</p>
+                          <p class="card-text">Super Area = 1800 sq.ft</p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-  
-              
-              <!-- Slide 3 -->
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-12 col-md-6">
-                    <div class="card border-0 shadow-sm">
-                      <img src="./images/car-3.jpg" class="card-img-top floor-img" alt="Tower B">
-                      <div class="card-body text-align-center">
-                        <h5 class="card-title">Tower B</h5>
-                        <p class="card-text">Type - 3 BHK</p>
-                        <p class="card-text">Super Area = 1750 sq.ft</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <div class="card border-0 shadow-sm">
-                      <img src="./images/car-4.jpg" class="card-img-top floor-img" alt="Tower D">
-                      <div class="card-body text-align-center">
-                        <h5 class="card-title">Tower B</h5>
-                        <p class="card-text">Type - 3 BHK</p>
-                        <p class="card-text">Super Area = 1800 sq.ft</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Add more slides if needed -->
 
-              
-              <!-- Slide 2 -->
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-12 col-md-6">
-                    <div class="card border-0 shadow-sm">
-                      <img src="./images/car-5.jpg" class="card-img-top floor-img" alt="Tower B">
-                      <div class="card-body text-align-center">
-                        <h5 class="card-title">Tower C</h5>
-                        <p class="card-text">Type - 3 BHK</p>
-                        <p class="card-text">Single Flat Area</p>
-                        <p class="card-text">Super Area = 1990 sq.ft</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <div class="card border-0 shadow-sm">
-                      <img src="./images/car-6.jpg" class="card-img-top floor-img" alt="Tower D">
-                      <div class="card-body text-align-center">
-                        <h5 class="card-title">Tower C</h5>
-                        <p class="card-text">Type - 3 BHK</p>
-                        <p class="card-text">Super Area = 1900 sq.ft</p>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card border border-danger shadow-sm">
+                        <img src="./images/car-6.jpg" class="card-img-top floor-img" alt="Tower C">
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Tower C</h5>
+                          <p class="card-text">Type - 3 BHK</p>
+                          <p class="card-text">Super Area = 1900 sq.ft</p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card border border-danger shadow-sm">
+                        <img src="./images/car-7.jpg" class="card-img-top floor-img" alt="Tower D">
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Tower D</h5>
+                          <p class="card-text">Type - 3 BHK</p>
+                          <p class="card-text">Super Area = 1990 sq.ft</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card border border-danger shadow-sm">
+                        <img src="./images/car-1.jpg" class="card-img-top floor-img" alt="Tower A">
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Tower A</h5>
+                          <p class="card-text">Type - 3 BHK + Servant</p>
+                          <p class="card-text">Super Area = 2290 sq.ft</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
 
-              
-              <!-- Slide 2 -->
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-12 col-md-6">
-                    <div class="card border-0 shadow-sm">
-                      <img src="./images/car-7.jpg" class="card-img-top floor-img" alt="Tower B">
-                      <div class="card-body text-align-center">
-                        <h5 class="card-title">Tower D</h5>
-                        <p class="card-text">Type - 3 BHK</p>
-                        <p class="card-text">Super Area = 1990 sq.ft</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-  
+              <!-- Carousel Controls -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#floorPlanCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#floorPlanCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
             </div>
-  
-            <!-- Controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#floorPlanCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#floorPlanCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </button>
+
+            <!-- Static Grid for Mobile Only -->
+            <div class="d-block d-md-none">
+              <div class="card mb-3 border border-danger">
+                <img src="./images/car-4.jpg" class="card-img-top" alt="Tower D">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Tower B</h5>
+                  <p class="card-text">3 BHK - 1750 sq.ft</p>
+                </div>
+              </div>
+              <div class="card mb-3 border border-danger">
+                <img src="./images/car-3.jpg" class="card-img-top" alt="Tower B">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Tower B</h5>
+                  <p class="card-text">3 BHK - 1800 sq.ft</p>
+                </div>
+              </div>
+              <div class="card mb-3 border border-danger">
+                <img src="./images/car-6.jpg" class="card-img-top" alt="Tower C">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Tower C</h5>
+                  <p class="card-text">3 BHK - 1900 sq.ft</p>
+                </div>
+              </div>
+              <div class="card mb-3 border border-danger">
+                <img src="./images/car-5.jpg" class="card-img-top" alt="Tower C">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Tower C</h5>
+                  <p class="card-text">3 BHK - 1990 sq.ft</p>
+                </div>
+              </div>
+              <div class="card mb-3 border border-danger">
+                <img src="./images/car-7.jpg" class="card-img-top" alt="Tower D">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Tower D</h5>
+                  <p class="card-text">3 BHK - 1990 sq.ft</p>
+                </div>
+              </div>
+              <div class="card mb-3 border border-danger">
+                <img src="./images/car-1.jpg" class="card-img-top" alt="Tower A">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Tower A</h5>
+                  <p class="card-text">3 BHK + Servant - 2290 sq.ft</p>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+
       </div>
     </div>
   </section>
@@ -300,7 +320,7 @@
   <section class="container mt-minus-70-in-px">
 
     
-    <h2 style="text-align: center; font-weight: bold;">The Zirk Smart Homes</h2>
+    <h2 class="glow-heading" style="text-align: center; font-weight: bold;">The Zirk Smart Homes</h2>
     <!-- Mobile full screen image -->
     <div class="mobile-carousel">
       <div class="carousel-slide">
@@ -547,7 +567,7 @@
   
 
   <section id="location-map" class="map-section">
-    <h2>Find Us Here</h2>
+    <h2 class="glow-heading">Find Us Here</h2>
     <div class="map-container">
       <img 
         src="./images/location.PNG" 
@@ -563,7 +583,7 @@
       
       <!-- Left: Contact Information -->
       <div class="contact-info">
-        <h2>Contact Us</h2>
+        <h2 class="glow-heading">Contact Us</h2>
         <p><strong>Address:</strong><br>High Ground Road, Zirakpur – Patiala Highway, Punjab</p>
         <p><strong>Phone:</strong><br><a class="color-grey" href="tel:9023199199">+91 90231-99199</a></p>
         <p><strong>Email:</strong><br><a class="color-grey" href="mailto:anil.tnwr@gmail.com">anil.tnwr@gmail.com</a></p>
@@ -579,8 +599,16 @@
   
     </div>
   </section>
+
+  <section class="py-4 bg-light">
+    <div class="container">
+      <p class="fw-bold animated-text mb-0">Bank loan available from all leading banks</p>
+    </div>
+  </section>
+
+  
   <section class="contact-section">
-    <h2>Book a Site Visit</h2>
+    <h2 class="glow-heading">Book a Site Visit</h2>
     <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
       <div class="form-group">
         <label for="name">Full Name</label>
