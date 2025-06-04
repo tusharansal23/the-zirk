@@ -118,7 +118,7 @@
 }  
   
   .color-white {
-    color: #fff;
+    color: #fff !important;
   }
   .color-black {
     color: #000 !important;
@@ -542,7 +542,7 @@ button[type="submit"]:hover {
 
 .contact-info h2 {
   margin-bottom: 20px;
-  color: #222;
+  color: #fff;
 }
 
 .contact-info p {
